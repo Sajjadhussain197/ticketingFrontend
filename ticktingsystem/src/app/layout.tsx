@@ -3,9 +3,6 @@ import type { Metadata } from "next";
 import { SessionProvider } from 'next-auth/react';
 import { Figtree , Barlow} from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
-import HeaderPanel from "@/components/HeaderPanel";
-import Footer from "@/components/Footer";
 const figtree = Figtree({
   subsets: ["latin"],
   variable: "--font-figtree",
@@ -16,7 +13,7 @@ const barlow = Barlow({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 export const metadata: Metadata = {
-  title: "ticketing",
+  title: "ticketting",
   description: "ticketing app",
 };
 
